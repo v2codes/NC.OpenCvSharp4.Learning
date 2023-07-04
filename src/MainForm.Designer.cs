@@ -150,7 +150,7 @@
             btn11.Name = "btn11";
             btn11.Size = new Size(140, 52);
             btn11.TabIndex = 11;
-            btn11.Text = "11. 混合显示和输出";
+            btn11.Text = "11. 彩色目标追踪";
             btn11.UseVisualStyleBackColor = true;
             btn11.Click += btn11_Click;
             // 

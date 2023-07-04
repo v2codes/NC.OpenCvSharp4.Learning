@@ -28,19 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
+            pcbImageShow = new PictureBox();
+            btnRun = new Button();
+            ((System.ComponentModel.ISupportInitialize)pcbImageShow).BeginInit();
             SuspendLayout();
+            // 
+            // pcbImageShow
+            // 
+            pcbImageShow.Location = new Point(0, 32);
+            pcbImageShow.Name = "pcbImageShow";
+            pcbImageShow.Size = new Size(800, 418);
+            pcbImageShow.TabIndex = 0;
+            pcbImageShow.TabStop = false;
+            pcbImageShow.MouseDown += pcbImageShow_MouseDown;
+            pcbImageShow.MouseMove += pcbImageShow_MouseMove;
+            pcbImageShow.MouseUp += pcbImageShow_MouseUp;
+            // 
+            // btnRun
+            // 
+            btnRun.Location = new Point(0, -1);
+            btnRun.Name = "btnRun";
+            btnRun.Size = new Size(800, 34);
+            btnRun.TabIndex = 1;
+            btnRun.Text = "打开摄像头，追踪目标";
+            btnRun.UseVisualStyleBackColor = true;
+            btnRun.Click += btnRun_Click;
             // 
             // Form11
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnRun);
+            Controls.Add(pcbImageShow);
             Name = "Form11";
             Text = "11. 彩色目标追踪";
             Load += Form11_Load;
+            ((System.ComponentModel.ISupportInitialize)pcbImageShow).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
+
+        private PictureBox pcbImageShow;
+        private Button btnRun;
     }
 }
