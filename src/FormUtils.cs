@@ -15,6 +15,7 @@ namespace NC.OpenCvSharp4.Learning
         public static string IMG_WRITE_PNG { get; set; } = "./asserts/writepng.png";
 
         public static string VIDEO_ZX4R { get; set; } = "./asserts/ninja-zx-4rr.mp4";
+        public static string VIDEO_1_AVI { get; set; } = "./asserts/1.avi";
 
         public static string VIDEO_WRITE_TEMP { get; set; } = "./asserts/temp.mp4";
         // public static string VIDEO_WRITE_TEMP { get; set; } = "F:\\Codes\\OpenCV\\NC.OpenCvSharp4.Learning\\asserts\\temp.avi";

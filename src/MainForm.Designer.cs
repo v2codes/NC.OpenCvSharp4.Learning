@@ -39,7 +39,7 @@
             btn9 = new Button();
             btn10 = new Button();
             btn11 = new Button();
-            button5 = new Button();
+            btn12 = new Button();
             button6 = new Button();
             button7 = new Button();
             SuspendLayout();
@@ -154,15 +154,15 @@
             btn11.UseVisualStyleBackColor = true;
             btn11.Click += btn11_Click;
             // 
-            // button5
+            // btn12
             // 
-            button5.Location = new Point(596, 70);
-            button5.Name = "button5";
-            button5.Size = new Size(140, 52);
-            button5.TabIndex = 11;
-            button5.Text = "5. 图像腐蚀Erode";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += btn5_Click;
+            btn12.Location = new Point(596, 70);
+            btn12.Name = "btn12";
+            btn12.Size = new Size(140, 52);
+            btn12.TabIndex = 11;
+            btn12.Text = "12. 光流法检测运动目标";
+            btn12.UseVisualStyleBackColor = true;
+            btn12.Click += btn12_Click;
             // 
             // button6
             // 
@@ -193,7 +193,7 @@
             Controls.Add(btn7);
             Controls.Add(button6);
             Controls.Add(btn6);
-            Controls.Add(button5);
+            Controls.Add(btn12);
             Controls.Add(btn5);
             Controls.Add(btn11);
             Controls.Add(btn4);
@@ -225,7 +225,7 @@
         private Button btn9;
         private Button btn10;
         private Button btn11;
-        private Button button5;
+        private Button btn12;
         private Button button6;
         private Button button7;
     }

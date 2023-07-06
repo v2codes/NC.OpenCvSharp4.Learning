@@ -74,5 +74,11 @@ namespace NC.OpenCvSharp4.Learning
             var frm = new Form11();
             FormUtils.OpenForm(frm);
         }
+
+        private void btn12_Click(object sender, EventArgs e)
+        {
+            var frm = new Form12();
+            FormUtils.OpenForm(frm);
+        }
     }
 }
