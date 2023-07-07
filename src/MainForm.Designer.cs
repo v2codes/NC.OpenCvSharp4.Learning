@@ -40,8 +40,8 @@
             btn10 = new Button();
             btn11 = new Button();
             btn12 = new Button();
-            button6 = new Button();
-            button7 = new Button();
+            btn10_1 = new Button();
+            btn10_2 = new Button();
             SuspendLayout();
             // 
             // btn1
@@ -146,52 +146,52 @@
             // 
             // btn11
             // 
-            btn11.Location = new Point(450, 70);
+            btn11.Location = new Point(742, 70);
             btn11.Name = "btn11";
             btn11.Size = new Size(140, 52);
-            btn11.TabIndex = 11;
+            btn11.TabIndex = 12;
             btn11.Text = "11. 彩色目标追踪";
             btn11.UseVisualStyleBackColor = true;
             btn11.Click += btn11_Click;
             // 
             // btn12
             // 
-            btn12.Location = new Point(596, 70);
+            btn12.Location = new Point(888, 70);
             btn12.Name = "btn12";
             btn12.Size = new Size(140, 52);
-            btn12.TabIndex = 11;
+            btn12.TabIndex = 13;
             btn12.Text = "12. 光流法检测运动目标";
             btn12.UseVisualStyleBackColor = true;
             btn12.Click += btn12_Click;
             // 
-            // button6
+            // btn10_1
             // 
-            button6.Location = new Point(742, 70);
-            button6.Name = "button6";
-            button6.Size = new Size(140, 52);
-            button6.TabIndex = 12;
-            button6.Text = "6. 图像模糊Blur";
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += btn6_Click;
+            btn10_1.Location = new Point(450, 70);
+            btn10_1.Name = "btn10_1";
+            btn10_1.Size = new Size(140, 52);
+            btn10_1.TabIndex = 10;
+            btn10_1.Text = "10.1 双摄像头操作与图像相似度检测";
+            btn10_1.UseVisualStyleBackColor = true;
+            btn10_1.Click += btn10_1_Click;
             // 
-            // button7
+            // btn10_2
             // 
-            button7.Location = new Point(888, 70);
-            button7.Name = "button7";
-            button7.Size = new Size(140, 52);
-            button7.TabIndex = 13;
-            button7.Text = "7. 边缘检测Sobel";
-            button7.UseVisualStyleBackColor = true;
-            button7.Click += btn7_Click;
+            btn10_2.Location = new Point(596, 70);
+            btn10_2.Name = "btn10_2";
+            btn10_2.Size = new Size(140, 52);
+            btn10_2.TabIndex = 11;
+            btn10_2.Text = "10.2 颜色空间转换与物体追踪";
+            btn10_2.UseVisualStyleBackColor = true;
+            btn10_2.Click += btn10_2_Click;
             // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1040, 729);
-            Controls.Add(button7);
+            Controls.Add(btn10_2);
             Controls.Add(btn7);
-            Controls.Add(button6);
+            Controls.Add(btn10_1);
             Controls.Add(btn6);
             Controls.Add(btn12);
             Controls.Add(btn5);
@@ -226,7 +226,7 @@
         private Button btn10;
         private Button btn11;
         private Button btn12;
-        private Button button6;
-        private Button button7;
+        private Button btn10_1;
+        private Button btn10_2;
     }
 }

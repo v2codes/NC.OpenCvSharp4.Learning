@@ -69,6 +69,18 @@ namespace NC.OpenCvSharp4.Learning
             FormUtils.OpenForm(frm);
         }
 
+        private void btn10_1_Click(object sender, EventArgs e)
+        {
+            var frm = new Form10_1();
+            FormUtils.OpenForm(frm);
+        }
+
+        private void btn10_2_Click(object sender, EventArgs e)
+        {
+            var frm = new Form10_2();
+            FormUtils.OpenForm(frm);
+        }
+
         private void btn11_Click(object sender, EventArgs e)
         {
             var frm = new Form11();
@@ -80,5 +92,6 @@ namespace NC.OpenCvSharp4.Learning
             var frm = new Form12();
             FormUtils.OpenForm(frm);
         }
+
     }
 }
