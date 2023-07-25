@@ -62,7 +62,7 @@ namespace NC.OpenCvSharp4.Learning.Forms
             _videoCapture.FrameHeight = pcbImageShow.Height;
 
             // 硬件加速
-            _videoCapture.Set(VideoCaptureProperties.Backend, (int)VideoCaptureAPIs.DSHOW);
+            // _videoCapture.Set(VideoCaptureProperties.Backend, (int)VideoCaptureAPIs.DSHOW);
 
             // 摄像头参数，可以通过其他工具进行调整，将所需的参数值用于此处配置， -- 【摄像头录像 CCTV UVC Video Camera.exe】
             //// 亮度

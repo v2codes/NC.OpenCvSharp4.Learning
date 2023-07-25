@@ -42,6 +42,13 @@
             btn12 = new Button();
             btn10_1 = new Button();
             btn10_2 = new Button();
+            btnScharr = new Button();
+            btnOptimized = new Button();
+            btn13 = new Button();
+            btn14 = new Button();
+            btn15_1 = new Button();
+            btn15_2 = new Button();
+            btn16 = new Button();
             SuspendLayout();
             // 
             // btn1
@@ -86,7 +93,7 @@
             // 
             // btn5
             // 
-            btn5.Location = new Point(596, 12);
+            btn5.Location = new Point(12, 70);
             btn5.Name = "btn5";
             btn5.Size = new Size(140, 52);
             btn5.TabIndex = 4;
@@ -96,7 +103,7 @@
             // 
             // btn6
             // 
-            btn6.Location = new Point(742, 12);
+            btn6.Location = new Point(158, 70);
             btn6.Name = "btn6";
             btn6.Size = new Size(140, 52);
             btn6.TabIndex = 5;
@@ -106,7 +113,7 @@
             // 
             // btn7
             // 
-            btn7.Location = new Point(888, 12);
+            btn7.Location = new Point(304, 70);
             btn7.Name = "btn7";
             btn7.Size = new Size(140, 52);
             btn7.TabIndex = 6;
@@ -116,7 +123,7 @@
             // 
             // btn8
             // 
-            btn8.Location = new Point(12, 70);
+            btn8.Location = new Point(450, 70);
             btn8.Name = "btn8";
             btn8.Size = new Size(140, 52);
             btn8.TabIndex = 7;
@@ -126,7 +133,7 @@
             // 
             // btn9
             // 
-            btn9.Location = new Point(158, 70);
+            btn9.Location = new Point(12, 129);
             btn9.Name = "btn9";
             btn9.Size = new Size(140, 52);
             btn9.TabIndex = 8;
@@ -136,7 +143,7 @@
             // 
             // btn10
             // 
-            btn10.Location = new Point(304, 70);
+            btn10.Location = new Point(158, 128);
             btn10.Name = "btn10";
             btn10.Size = new Size(140, 52);
             btn10.TabIndex = 9;
@@ -146,7 +153,7 @@
             // 
             // btn11
             // 
-            btn11.Location = new Point(742, 70);
+            btn11.Location = new Point(158, 187);
             btn11.Name = "btn11";
             btn11.Size = new Size(140, 52);
             btn11.TabIndex = 12;
@@ -156,7 +163,7 @@
             // 
             // btn12
             // 
-            btn12.Location = new Point(888, 70);
+            btn12.Location = new Point(304, 187);
             btn12.Name = "btn12";
             btn12.Size = new Size(140, 52);
             btn12.TabIndex = 13;
@@ -166,7 +173,7 @@
             // 
             // btn10_1
             // 
-            btn10_1.Location = new Point(450, 70);
+            btn10_1.Location = new Point(304, 129);
             btn10_1.Name = "btn10_1";
             btn10_1.Size = new Size(140, 52);
             btn10_1.TabIndex = 10;
@@ -176,13 +183,81 @@
             // 
             // btn10_2
             // 
-            btn10_2.Location = new Point(596, 70);
+            btn10_2.Location = new Point(12, 187);
             btn10_2.Name = "btn10_2";
             btn10_2.Size = new Size(140, 52);
             btn10_2.TabIndex = 11;
             btn10_2.Text = "10.2 颜色空间转换与物体追踪";
             btn10_2.UseVisualStyleBackColor = true;
             btn10_2.Click += btn10_2_Click;
+            // 
+            // btnScharr
+            // 
+            btnScharr.Location = new Point(742, 70);
+            btnScharr.Name = "btnScharr";
+            btnScharr.Size = new Size(140, 52);
+            btnScharr.TabIndex = 7;
+            btnScharr.Text = "Scharr滤波器";
+            btnScharr.UseVisualStyleBackColor = true;
+            btnScharr.Click += btnScharr_Click;
+            // 
+            // btnOptimized
+            // 
+            btnOptimized.Location = new Point(888, 70);
+            btnOptimized.Name = "btnOptimized";
+            btnOptimized.Size = new Size(140, 52);
+            btnOptimized.TabIndex = 7;
+            btnOptimized.Text = "程序性能检测及优化";
+            btnOptimized.UseVisualStyleBackColor = true;
+            btnOptimized.Click += btnOptimized_Click;
+            // 
+            // btn13
+            // 
+            btn13.Location = new Point(450, 187);
+            btn13.Name = "btn13";
+            btn13.Size = new Size(140, 52);
+            btn13.TabIndex = 13;
+            btn13.Text = "13. 点追踪";
+            btn13.UseVisualStyleBackColor = true;
+            btn13.Click += btn13_Click;
+            // 
+            // btn14
+            // 
+            btn14.Location = new Point(596, 187);
+            btn14.Name = "btn14";
+            btn14.Size = new Size(140, 52);
+            btn14.TabIndex = 14;
+            btn14.Text = "14. 人脸识别追踪";
+            btn14.UseVisualStyleBackColor = true;
+            btn14.Click += btn14_Click;
+            // 
+            // btn15_1
+            // 
+            btn15_1.Location = new Point(12, 245);
+            btn15_1.Name = "btn15_1";
+            btn15_1.Size = new Size(140, 52);
+            btn15_1.TabIndex = 15;
+            btn15_1.Text = "15.1 支持向量机之SVM引导";
+            btn15_1.UseVisualStyleBackColor = true;
+            // 
+            // btn15_2
+            // 
+            btn15_2.Location = new Point(158, 245);
+            btn15_2.Name = "btn15_2";
+            btn15_2.Size = new Size(140, 52);
+            btn15_2.TabIndex = 15;
+            btn15_2.Text = "15.2 支持向量机之处理线性不可分数据";
+            btn15_2.UseVisualStyleBackColor = true;
+            // 
+            // btn16
+            // 
+            btn16.Location = new Point(12, 303);
+            btn16.Name = "btn16";
+            btn16.Size = new Size(140, 52);
+            btn16.TabIndex = 16;
+            btn16.Text = "16 用鼠标绘制矩形";
+            btn16.UseVisualStyleBackColor = true;
+            btn16.Click += btn16_Click;
             // 
             // MainForm
             // 
@@ -193,6 +268,11 @@
             Controls.Add(btn7);
             Controls.Add(btn10_1);
             Controls.Add(btn6);
+            Controls.Add(btn16);
+            Controls.Add(btn15_2);
+            Controls.Add(btn15_1);
+            Controls.Add(btn14);
+            Controls.Add(btn13);
             Controls.Add(btn12);
             Controls.Add(btn5);
             Controls.Add(btn11);
@@ -201,6 +281,8 @@
             Controls.Add(btn3);
             Controls.Add(btn9);
             Controls.Add(btn2);
+            Controls.Add(btnOptimized);
+            Controls.Add(btnScharr);
             Controls.Add(btn8);
             Controls.Add(btn1);
             FormBorderStyle = FormBorderStyle.FixedDialog;
@@ -228,5 +310,12 @@
         private Button btn12;
         private Button btn10_1;
         private Button btn10_2;
+        private Button btnScharr;
+        private Button btnOptimized;
+        private Button btn13;
+        private Button btn14;
+        private Button btn15_1;
+        private Button btn15_2;
+        private Button btn16;
     }
 }
